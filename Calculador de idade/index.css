@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(240, 182, 128);
+    font-family: sans-serif;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#userData {
+    background-color: rgb(212, 137, 67);
+    max-width: max-content;
+    min-width: min-content;
+    height: max-content;
+    padding: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+#calculate {
+    background-color: rgb(11, 11, 95);
+    color: white;
+    width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    user-select: none;
+}
+
+#calculate:active {
+    transform: scale(1.1, 0.9);
+}
+
+#dataOutput {
+    display: none;
+    background-color: rgb(212, 137, 67);
+    max-width: max-content;
+    min-width: min-content;
+    height: 40vh;
+    margin: 15px 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer > h3 {
+    text-align: center;
+}
